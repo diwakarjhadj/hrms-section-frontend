@@ -1,0 +1,40 @@
+.dashboard {
+    padding: 20px;
+  }
+  
+  .navbar {
+    margin: 20px 0;
+  }
+  
+  .leave-section {
+    margin-top: 30px;
+  }
+  
+  .leave-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leave-table th, .leave-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .approve-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .reject-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
