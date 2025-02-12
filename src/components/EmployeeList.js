@@ -17,7 +17,7 @@ const EmployeeList = ({ employees, onDelete, onEdit }) => {
       <tbody>
         {employees.map((employee) => (
           <tr key={employee._id}>
-            <td>{employee.id}</td>
+            <td>{employee._id}</td>
             <td>{employee.name}</td>
             <td>{employee.department}</td>
             <td>{employee.contact}</td>
