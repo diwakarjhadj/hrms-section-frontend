@@ -9,7 +9,6 @@ const EmployeeForm = () => {
     department: '',
     contact: '',
     email: '',
-    leaveBalance: '',
   });
 
   const navigate = useNavigate();
@@ -27,8 +26,7 @@ const EmployeeForm = () => {
         name: '',
         department: '',
         contact: '',
-        email: '',
-        leaveBalance: '',
+        email: ''
       });
 
       // Redirect to the dashboard
