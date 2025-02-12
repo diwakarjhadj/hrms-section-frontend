@@ -63,11 +63,6 @@ const EmployeeForm = () => {
           <input type="email" name="email" value={employee.email} onChange={handleChange} required />
         </div>
 
-        <div className="form-group">
-          <label>Leave Balance:</label>
-          <input type="number" name="leaveBalance" value={employee.leaveBalance} onChange={handleChange} min="0" />
-        </div>
-
         <button type="submit">Create</button>
       </form>
     </div>
